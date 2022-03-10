@@ -1,0 +1,141 @@
+@media all and (min-width: 701px) {
+
+html {
+    height: -webkit-fill-available;
+}
+
+body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    min-height: -webkit-fill-available;
+}
+   
+.main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+
+#toolbar {
+    margin-left: -12px;
+    margin-right: -12px;
+    background-color: white;
+}
+
+#iconMenu {
+    background-color: transparent;
+}
+
+#title {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+#content {
+    background-color: #707070;
+}
+
+#imgAtividade {
+    margin-top: 60px;
+    padding: 2px;
+    width: 152px;
+    height: 178px;
+}
+
+#pisoShadow {
+    margin-bottom: 50px;
+    width: 239px;
+    height: 8px;
+    background: transparent;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.35);
+}
+
+#smallKeys {
+    background-color: transparent;
+    width: 100px;
+    height: 18px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: rgb(226, 221, 221);
+}
+
+#smallValues {
+    width: 100px;
+    height: 24px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+footer {
+    margin-left: -12px;
+    margin-right: -12px;
+    height: 36vh;
+    background-color: #707070;
+}
+
+#imgHeart {
+    margin-top: 50px;
+    padding: 2px;
+    width: 36px;
+    height: 36px;
+}
+
+#imgDownload {
+    margin: 20px;
+    width: 86px;
+    height: 86px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.35);
+}
+
+#imgMusic {
+    margin-top: 50px;
+    padding: 2px;
+    width: 36px;
+    height: 36px;
+}
+
+#containerFooter {
+    background-color: #c4c4c4;
+    height: 36vh;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+#containerImg {
+    padding-top: 40px;
+}
+
+#imgBackLink {
+    color: black;
+    text-decoration: none;
+}
+
+}

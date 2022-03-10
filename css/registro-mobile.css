@@ -1,0 +1,96 @@
+@media all and (max-width: 700px) {
+
+html, 
+    
+body {
+    display: -ms-flexbox;
+    display: flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    background-color: white;
+}
+
+.container-fluid {
+    display: flex;  
+    flex-flow: row wrap;
+    background-color: white;
+}
+  
+  .container-fluid > * {
+    /* padding: 10px; */
+    flex:  100%;
+  }
+  
+  .header {
+    background: white;
+  }
+  
+  .main {
+    text-align: center;
+  }
+  
+  #title {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  #selectPais {
+      height: 52px;
+  }
+
+  #containerTerms {
+      font-size: 12px;
+      padding: 6px;
+  }
+
+  #btnConfirm {
+    background-color: #5BA9CF;
+    height: 52px;
+    border: 2px solid #88c8e6;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: white;
+    font-size: small;
+  }
+
+  #btnIsUser {
+    background-color: white;
+    height: 52px;
+    border: 2px solid rgb(75, 74, 74);
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: black;
+    font-size: small;
+  }
+
+  #isUserLink {
+    color: black;
+    text-decoration: none;
+    font-size: small;
+  }
+  #btnConfirmLink {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+  }
+  
+  /* @media all and (min-width: 760px) {
+    .aside { flex: 1 0 0; }
+  }
+  
+  @media all and (min-width: 760px) {
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+  } */
+
+}

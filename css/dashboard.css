@@ -1,0 +1,86 @@
+@media all and (min-width: 701px) {
+
+html,
+
+body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+#iconMenu {
+    margin-top: 10px;
+    margin-left: -14px;
+}
+
+#title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+#cardm {
+    background-color: #E6E6E6;
+}
+
+#imgRowItem {
+    background-color: #A1A1A1;
+    margin-left: -12px;
+    padding: 8px;
+    width: 82px;
+    height: 82px;
+    
+}
+#containerTitleAtividade {
+    padding-top: 2px;
+}
+#titleAtividade {
+    margin-left: -2px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+}
+#containerTitle2 {
+    margin-left: -12px;
+    margin-top: 12px;
+}
+
+#titleMinute {
+    text-align: left;
+    margin-left: -12px;
+    width: 50%;
+}
+
+#titleLevel {
+    width: 50%;
+    text-align: left;
+}
+
+#itemAtividadeLink {
+    color: black;
+    text-decoration: none;
+}
+
+#imgBackLink {
+    color: black;
+    text-decoration: none;
+}
+
+}

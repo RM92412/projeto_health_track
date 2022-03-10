@@ -1,0 +1,91 @@
+@media all and (min-width: 701px) {
+
+html, 
+    
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.container-fluid {
+    display: flex;  
+    flex-flow: row wrap;
+    background-color: white;
+}
+  
+  .container-fluid > * {
+    /* padding: 10px; */
+    flex:  100%;
+  }
+  
+  .header {
+    background: white;
+  }
+  
+  .main {
+    text-align: center;
+  }
+  
+  #title {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  #selectPais {
+      height: 52px;
+  }
+
+  #containerTerms {
+      font-size: 12px;
+      padding: 6px;
+  }
+
+  #btnConfirm {
+    background-color: #5BA9CF;
+    height: 52px;
+    border: 2px solid #88c8e6;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: white;
+    font-size: small;
+  }
+
+  #btnIsUser {
+    background-color: white;
+    height: 52px;
+    border: 2px solid rgb(75, 74, 74);
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: black;
+    font-size: small;
+  }
+
+  #isUserLink {
+    color: black;
+    text-decoration: none;
+    font-size: small;
+  }
+  #btnConfirmLink {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+  }
+
+}
